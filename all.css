@@ -169,10 +169,17 @@ p.infos_1sd{
     background-color: #000;
     padding: 64px 0;
 }
-
-.photo_s {
+.link{
+   display: flex;
+   justify-content: center;
+}
+.lr_40{
+    padding:0 40px;
+}
+a.photo_s {
     width: 64px;
     height: 64px;
-    display: inline-block;
-    margin:0px 20px;
+}
+a.photo_s:hover{
+    opacity: 0.5
 }
